@@ -2,7 +2,7 @@
 This mixin function allows you to define a specific look, feel, and some animation for a set of basic tabs on a site without having to modify the basic tabs for the entire theme.
 
 ## How to use it
-.custom_tabs( @nav-tab-name: super-nav-tabs; 
+	.custom_tabs( @nav-tab-name: super-nav-tabs; 
 							
 							@tabs_bottom_border_color:rgba(0,0,0,.1);
 							@tabs-margin-right:8px;
@@ -27,4 +27,3 @@ This mixin function allows you to define a specific look, feel, and some animati
 							@tabs-active-link-color:@nav-tabs-active-link-hover-bg;
 							
 							);
-
