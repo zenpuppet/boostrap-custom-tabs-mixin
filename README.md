@@ -31,3 +31,16 @@ After that, you simply follow along with the setting and sculpt your custom tabs
 							@tabs-active-link-color:@nav-tabs-active-link-hover-bg;
 							
 							);
+
+## How to Complile
+If you are using bootstrap.less file as your starter compiler LESS file then I usually do the include of all my mixins right after the standard mixins like this
+
+	@import "@{base-url}mixins.less";
+	@import "@{dev-url}mixins.less";
+
+Where 
+	@dev-url: "./";
+	@base-url: "../node_modules/bootstrap/less/";
+	
+But that will depend on how you have your code organized.
+Good luck and check back for updates regularly.
