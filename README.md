@@ -3,7 +3,8 @@ This mixin function allows you to define a specific look, feel, and some animati
 
 ## How to use it
 In this example, we are creating a new tab class of **super-nav-tabs**
-Past that you simply follow along with the setting and sculpt your custom tabs the way you see fit.
+
+After that, you simply follow along with the setting and sculpt your custom tabs the way you see fit.
 
 	.custom_tabs( @nav-tab-name: super-nav-tabs; 
 							
