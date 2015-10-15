@@ -2,6 +2,9 @@
 This mixin function allows you to define a specific look, feel, and some animation for a set of basic tabs on a site without having to modify the basic tabs for the entire theme.
 
 ## How to use it
+In this example, we are creating a new tab class of **super-nav-tabs**
+Past that you simply follow along with the setting and sculpt your custom tabs the way you see fit.
+
 	.custom_tabs( @nav-tab-name: super-nav-tabs; 
 							
 							@tabs_bottom_border_color:rgba(0,0,0,.1);
