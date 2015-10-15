@@ -38,9 +38,11 @@ If you are using bootstrap.less file as your starter compiler LESS file then I u
 		@import "@{base-url}mixins.less";
 		@import "@{dev-url}mixins.less";
 
-Where 
+Where
+
 		@dev-url: "./";
 		@base-url: "../node_modules/bootstrap/less/";
+		
 	
 But that will depend on how you have your code organized.
 Good luck and check back for updates regularly.
